@@ -19,4 +19,9 @@ public class CalculatorTest {
         assertEquals(calculator.add(1, 3), 4);
     }
 
+
+    @Test
+    public void addFail() throws Exception {
+        assertEquals(calculator.add(1, 3), 5);
+    }
 }
